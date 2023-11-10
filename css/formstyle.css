@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form {
+    width: 40%;
+    border-radius: 23px;
+    background: rgba(104, 86, 132, 0.35);
+    backdrop-filter: blur(15px);
+
+}
+body {
+    background-image: url('/Image/surveyform-bg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #C6ADEF;
+}
+.pointer {
+    cursor: pointer;
+}
+.submit-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: #A380DB;
+    background: linear-gradient(270deg, #12022C -6.28%, #180537 52.62%, #12022C 104.5%);
+    height: 3rem;
+}
+.input-style {
+    border-radius: 8px;
+    border: 1px solid #7E6E98;
+    background: none;
+    padding-left: 1rem;
+}
+input::placeholder,
+textarea::placeholder {
+    opacity: 1;
+    color: #766298;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+option {
+    background: #766298;
+    color: white;
+}
